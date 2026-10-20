@@ -1,0 +1,22 @@
+JDBC ---> Java databse connectivity
+
+frontend --> React/Angular/HTML, CSS, JS
+BAckend ---> Java(Sprinboot)
+Database ---> MYSQL
+
+
+API ---> Jar --> JRE
+//JDBC API ---> java.sql, javax.sql
+//java.sql ---> Interfaces, Factory class(DriverManager --> provides a utility class for db connection)
+//Interfaces---> Connection, Statement, PreparedStatment, ResultSet
+
+//1. Loding and resgitering you driver class
+//2. establish the connection(db url, username, password)  ---> Connection Interface
+//3. creating platform to execute sql queries ----> Statement, PreparedStatement
+//4. execute the quersies ---> ResultSet
+
+//DML--> inser, update, del
+//DQL--> select
+execute()  --> generic  (create, alter)
+executeUpdate() --> Insert, delete, update
+executeQuery() --> select
